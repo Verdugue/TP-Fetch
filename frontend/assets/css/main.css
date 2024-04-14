@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'mafont';
+    src: url('../assets/font./WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(23, 119, 230, 0.247);
+}
+
+
+#overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 227, 227, 0);
+    gap:100px;
+    font-size: 50px;
+}
+
+#load-sneakers-btn {
+      width: 200Px;
+    height:60px;
+    font-size: 17px;
+    font-family: mafont;
+    font-weight: 500;
+
+    
+}
+
+#container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+
+#pa {
+    background-color: white;
+    width: 1120px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+#sneaker-images {
+    width:800px;
+
+}
+
+#sizes {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height:80px;
+    align-items: center;
+    gap:5px;
+    flex-direction: column;
+}
+
+#size {
+    margin-top: 230px;
+    font-size: 50px;
+
+}
+
+#description {
+    background-color: white;
+    border-radius:20px;
+    height:550px;
+    padding-top: 100px;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+
+
+#cd {
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 1120px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+
+#sneaker-name {
+    font-size: 200px;
+    font-family: 'mafont';
+    font-weight:  600 ;
+}
+
+#description {
+width:120em;
+justify-content: center;
+display: flex;
+margin-top:5%;
+
+}
+
+#sneaker-release-date {
+    margin-top: 30px;
+    font-family: mafont;
+    font-size: 20px;
+
+}
+
+
+#sneakers-container {
+    display: grid;
+    align-content:center;
+    grid-template-columns:  1fr 1fr 1fr 1fr 6fr;
+    gap: 150px;
+    margin-top:50px;
+    margin-left: 470px;
+    
+}
+
+.sneaker {
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    padding-left:30px;
+}
+
+.sneaker img {
+    width: 100%;
+    
+    height: auto;
+}
+
+
+#img {
+    margin-top:20px;
+  width:200px;
+    margin-bottom:20px;
+}

@@ -1,16 +1,22 @@
-    const express = require('express');
-    const cors = require('cors');
-    const app = express();
-    const port = 3000;
-    const data = require('./data.json');
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+const app = express();
+const port = 3000;
 
-    app.use(cors (
-        {
-        origin: '*',
-    }
-    ));
+// Autoriser les requêtes cross-origin
+app.use(cors({
+  origin: '*'
+}));
 
-    const sneakersRoutes = require('./routes/sneakers');
-    app.use(sneakersRoutes);
+// Servir les fichiers statiques - Assurez-vous que ceci vient avant les routes API
+app.use(express.static(path.join(__dirname, '../frontend')));
 
-    app.listen(port, () => console.log(`listening on port ${port}`));
+// Configuration des routes de l'API
+const sneakersRoutes = require('./routes/sneakers');
+app.use(sneakersRoutes);
+
+// Démarrage du serveur
+app.listen(port, () => {
+  console.log(`listening on port ${port}`);
+});

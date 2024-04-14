@@ -9,11 +9,11 @@
             "delivery_time": 5,
             "delivery_price": 6,
             "reduction": 0,
-            "img_1": "assets/img/sneakers/sneaker1/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker1/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker1/img3.jpg",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker1.png"
+              ]
         },
         {
             "id": 2,
@@ -24,11 +24,11 @@
             "delivery_time": 2,
             "delivery_price": 6,
             "reduction": 14,
-            "img_1": "assets/img/sneakers/sneaker2/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker2/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker2/img3.jpg",
             "available": false,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker2.png"
+              ]
         },
         {
             "id": 3,
@@ -39,11 +39,14 @@
             "delivery_time": 3,
             "delivery_price": 7,
             "reduction": 0,
-            "img_1": "assets/img/sneakers/sneaker3/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker3/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker3/img3.jpg",
+            "img_1": "assets/img/sneakers/sneaker3/img1.png",
+            "img_2": "assets/img/sneakers/sneaker3/img2.png",
+            "img_3": "assets/img/sneakers/sneaker3/img3.png",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker3.png"
+              ]
         },
         {
             "id": 4,
@@ -54,11 +57,14 @@
             "delivery_time": 5,
             "delivery_price": 3,
             "reduction": 6,
-            "img_1": "assets/img/sneakers/sneaker4/img1.jpg",
+            "img_1": "assets/img/sneakers/sneaker4/img1.png",
             "img_2": "",
             "img_3": "",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker4.png"
+              ]
         },
         {
             "id": 5,
@@ -69,11 +75,14 @@
             "delivery_time": 8,
             "delivery_price": 0,
             "reduction": 10,
-            "img_1": "assets/img/sneakers/sneaker5/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker5/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker5/img3.jpg",
+            "img_1": "assets/img/sneakers/sneaker5/img1.png",
+            "img_2": "assets/img/sneakers/sneaker5/img2.png",
+            "img_3": "assets/img/sneakers/sneaker5/img3.png",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker5.png"
+              ]
         },
         {
             "id": 6,
@@ -84,11 +93,14 @@
             "delivery_time": 6,
             "delivery_price": 5,
             "reduction": 0,
-            "img_1": "assets/img/sneakers/sneaker6/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker6/img2.jpg",
+            "img_1": "assets/img/sneakers/sneaker6/img1.png",
+            "img_2": "assets/img/sneakers/sneaker6/img2.png",
             "img_3": "",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker6.png"
+              ]
         },
         {
             "id": 7,
@@ -99,11 +111,14 @@
             "delivery_time": 4,
             "delivery_price": 9,
             "reduction": 15,
-            "img_1": "assets/img/sneakers/sneaker7/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker7/img2.jpg",
+            "img_1": "assets/img/sneakers/sneaker7/img1.png",
+            "img_2": "assets/img/sneakers/sneaker7/img2.png",
             "img_3": "",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker7.png"
+              ]
         },
         {
             "id": 8,
@@ -114,11 +129,14 @@
             "delivery_time": 6,
             "delivery_price": 4,
             "reduction": 0,
-            "img_1": "assets/img/sneakers/sneaker8/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker8/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker8/img3.jpg",
+            "img_1": "assets/img/sneakers/sneaker8/img1.png",
+            "img_2": "assets/img/sneakers/sneaker8/img2.png",
+            "img_3": "assets/img/sneakers/sneaker8/img3.png",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker8.png"
+              ]
         },
         {
             "id": 9,
@@ -129,11 +147,14 @@
             "delivery_time": 7,
             "delivery_price": 0,
             "reduction": 5,
-            "img_1": "assets/img/sneakers/sneaker8/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker8/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker8/img3.jpg",
+            "img_1": "assets/img/sneakers/sneaker8/img1.png",
+            "img_2": "assets/img/sneakers/sneaker8/img2.png",
+            "img_3": "assets/img/sneakers/sneaker8/img3.png",
             "available": false,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker9.png"
+              ]
         },
         {
             "id": 10,
@@ -144,11 +165,14 @@
             "delivery_time": 7,
             "delivery_price": 3,
             "reduction": 12,
-            "img_1": "assets/img/sneakers/sneaker8/img1.jpg",
-            "img_2": "assets/img/sneakers/sneaker8/img2.jpg",
-            "img_3": "assets/img/sneakers/sneaker8/img3.jpg",
+            "img_1": "assets/img/sneakers/sneaker8/img1.png",
+            "img_2": "assets/img/sneakers/sneaker8/img2.png",
+            "img_3": "assets/img/sneakers/sneaker8/img3.png",
             "available": true,
-            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46"
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "images": [
+                "assets/img/sneaker10.png"
+              ]
         }
     ],
     "category": [
